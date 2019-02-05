@@ -69,6 +69,9 @@ module.exports = {
         animation: fadeOut ease 5s;
         animation-fill-mode: forwards;
       }
+      .splitpane_divider {
+        opacity: 0.3;
+      }
     `,
 
     // custom CSS to embed in the terminal window
@@ -163,7 +166,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ["hyperfullscreen", "hyperminimal"],
+  plugins: ["hyperminimal"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
