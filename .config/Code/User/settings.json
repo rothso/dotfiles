@@ -1,0 +1,11 @@
+{
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Nord",
+    "workbench.editor.showTabs": false,
+    "terminal.integrated.shell.linux": "/bin/fish",
+    "window.restoreFullscreen": true,
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "editor.tabSize": 2
+}
