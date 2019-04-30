@@ -7,5 +7,13 @@
     "window.restoreFullscreen": true,
     "editor.minimap.enabled": false,
     "window.menuBarVisibility": "toggle",
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/.next/**": true,
+    },
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "editor.multiCursorModifier": "ctrlCmd",
 }

@@ -3,3 +3,18 @@
 # Please adapt and uncomment the following lines:
 	name = Rothanak So
 	email = rothanak.hello@gmail.com
+
+[merge]
+	tool = intellij
+[mergetool "intellij"]
+	cmd = flatpak run --command=idea com.jetbrains.IntelliJ-IDEA-Ultimate merge $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE") $(cd $(dirname "$BASE") && pwd)/$(basename "$BASE") $(cd $(dirname "$MERGED") && pwd)/$(basename "$MERGED")
+	trustExitCode = true
+
+
+[diff]
+	tool = intellij
+[difftool "intellij"]
+	cmd = flatpak run --command=idea com.jetbrains.IntelliJ-IDEA-Ultimate diff $(cd $(dirname "$LOCAL") && pwd)/$(basename "$LOCAL") $(cd $(dirname "$REMOTE") && pwd)/$(basename "$REMOTE")
+
+[core]
+	autocrlf = input
