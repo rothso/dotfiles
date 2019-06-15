@@ -1,5 +1,5 @@
 {
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Nord",
     "workbench.editor.showTabs": false,
@@ -15,5 +15,15 @@
         "**/.next/**": true,
     },
     "bracketPairColorizer.forceIterationColorCycle": true,
-    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.multiCursorModifier": "alt",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.fontLigatures": true,
+    "editor.formatOnSaveTimeout": 7420,
+    "editor.lineHeight": 18,
+    "editor.fontSize": 13.5,
+    "codestream.email": "rothanak.hello@gmail.com",
+    "git.autofetch": true,
 }
