@@ -1,5 +1,5 @@
 {
-    "workbench.statusBar.visible": true,
+    "workbench.statusBar.visible": false,
     "workbench.activityBar.visible": false,
     "workbench.colorTheme": "Nord",
     "workbench.editor.showTabs": false,
@@ -15,10 +15,16 @@
         "**/.next/**": true,
     },
     "bracketPairColorizer.forceIterationColorCycle": true,
-    "editor.multiCursorModifier": "alt",
+    "editor.multiCursorModifier": "ctrlCmd",
     "[javascriptreact]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        { "language": "typescript", "autoFix": true },
+        { "language": "typescriptreact", "autoFix": true }
+    ],
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.fontLigatures": true,
     "editor.formatOnSaveTimeout": 7420,
@@ -26,4 +32,7 @@
     "editor.fontSize": 13.5,
     "codestream.email": "rothanak.hello@gmail.com",
     "git.autofetch": true,
+    "presentationMode.zoomLevel": 2,
+    "breadcrumbs.enabled": false,
+    "C_Cpp.updateChannel": "Insiders",
 }

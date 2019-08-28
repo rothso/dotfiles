@@ -16,3 +16,12 @@ source (conda info --root)/etc/fish/conf.d/conda.fish
 
 # Flutter
 set -x PATH $PATH $HOME/flutter/bin
+
+# Android
+set -x PATH $PATH $HOME/Android/Sdk/platform-tools
+
+# Disable middle click paste
+xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9" 2>/dev/null
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/rothanak/google-cloud-sdk/path.fish.inc' ]; . '/home/rothanak/google-cloud-sdk/path.fish.inc'; end
