@@ -1,0 +1,48 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+shift+c",
+    "command": "-copyFilePath",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "ctrl+alt+, down",
+    "command": "workbench.action.splitEditorDown"
+  },
+  {
+    "key": "ctrl+alt+, left",
+    "command": "workbench.action.splitEditorLeft"
+  },
+  {
+    "key": "ctrl+alt+, right",
+    "command": "workbench.action.splitEditorRight"
+  },
+  {
+    "key": "ctrl+alt+, up",
+    "command": "workbench.action.splitEditorUp"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-workbench.action.closeWindow",
+    "when": "!editorIsOpen && !multipleEditorGroups"
+  },
+  {
+    "key": "ctrl+k ctrl+w",
+    "command": "-workbench.action.closeAllEditors"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "-editor.action.smartSelect.grow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+alt+z",
+    "command": "git.revertSelectedRanges",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+z",
+    "command": "-git.revertSelectedRanges",
+    "when": "editorHasSelection && editorTextFocus && !editorReadonly"
+  }
+]
