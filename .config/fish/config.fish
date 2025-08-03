@@ -12,7 +12,7 @@ set -x PATH $PATH $HOME/.local/bin
 
 # Go
 set -x -U GOPATH $HOME/go
-set -x PATH $PATH $GOPATH/bin
+set -x PATH $PATH $GOPATH/bin /usr/local/go/bin
 
 # Anaconda
 set -x PATH $PATH $HOME/anaconda3/bin
