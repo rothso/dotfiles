@@ -30,5 +30,8 @@ set -x PATH $PATH /var/lib/snapd/snap/bin
 # Disable middle click paste
 type -q xmodmap; and xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9" 2>/dev/null
 
+# https://stackoverflow.com/a/43147778/5623874
+set -x LS_COLORS "$LS_COLORS:ow=1;34:"
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/rothanak/google-cloud-sdk/path.fish.inc' ]; . '/home/rothanak/google-cloud-sdk/path.fish.inc'; end
